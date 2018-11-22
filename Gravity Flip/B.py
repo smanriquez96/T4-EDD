@@ -1,1 +1,5 @@
-#!/usr/bin/python3
+n = int(input())
+lista = list(map(lambda x: int(x),input().strip().split(" ")))
+lista.sort()
+lista = list(map(lambda x: str(x), lista))
+print(" ".join(lista))
